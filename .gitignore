@@ -1,0 +1,34 @@
+# 🔐 Fichiers sensibles
+.env
+*.env
+
+# 🐍 Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# 📦 Environnements virtuels
+env/
+venv/
+ENV/
+.venv/
+
+# 📂 Logs
+logs/
+*.log
+
+# 🐘 Base de données éventuelle
+*.sqlite3
+
+# 💥 Fichiers de test ou debug
+.DS_Store
+*.swp
+*.bak
+*.tmp
+
+# 📦 Dépendances si jamais tu installes avec poetry ou pipenv
+poetry.lock
+Pipfile.lock
+
